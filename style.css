@@ -1,0 +1,363 @@
+body {
+    background-color: #2B2B2B !important;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: SpaceMono;
+    src: url(SpaceMono-Regular.ttf);
+}
+
+* {
+    font-family: WorkSans;
+}
+
+.navbar {
+    background-color: #2B2B2B !important;
+}
+
+.nav_toggler_c {
+    border: none !important;
+    margin-right: 30px;
+}
+
+.nav_burger_icon {
+    background-image: url(Burger\ Menu.png) !important;
+}
+
+.brand_img_c {
+    padding-right: 15px;
+    margin-top: -5px;
+}
+
+.brand_c {
+    margin-left: 50px;
+    color: #FFFFFF !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.ul_c {
+    position: absolute;
+    right: 50;
+    margin-top: 2px;
+    background-color: #2B2B2B !important;
+}
+
+.nav-item {
+    margin-top: 25px;
+}
+
+.nav_item_text_c {
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+}
+
+.nav_item_button_c {
+    width: 152px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    margin-top: -17.5px;
+    background-color: #A259FF;
+    display: flex;
+}
+
+.img_user {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.p_SU {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+
+.div_CA {
+    width: 100%;
+    height: 691px;
+    margin-top: 29px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .brand_c {
+        font-size: 16px !important;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .div_CA {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .img_m {
+        width: 100% !important;
+        height: 332px !important;
+    }
+    .div_CA_form {
+        width: 315px !important;
+        margin-left: 0 !important;
+        margin: auto !important;
+    }
+    .div_HS {
+        width: 315px !important;
+        height: 110px !important;
+    }
+    .div_H {
+        width: 315px !important;
+        height: 46px !important;
+    }
+    .h1_CA {
+        font-size: 38px !important;
+    }
+    .div_S {
+        width: 315px !important;
+        height: 44px !important;
+    }
+    .p_CA {
+        white-space: nowrap;
+        font-size: 16px !important;
+    }
+    .div_form {
+        margin-left: -10px;
+    }
+}
+
+.img_m {
+    width: 44%;
+    height: 780px;
+}
+
+.div_CA_form {
+    width: 610px;
+    height: 691px;
+    margin-left: 60px;
+}
+
+.div_HS {
+    width: 460px;
+    height: 146px;
+    margin-top: 100px;
+}
+
+.div_H {
+    width: 460px;
+    height: 56px;
+}
+
+.h1_CA {
+    font-size: 51px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.div_S {
+    width: 460px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.p_CA {
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.div_form {
+    width: 330px;
+    height: 305px;
+    margin-top: 40px;
+}
+
+.div_wallet_3 {
+    width: 320px;
+    height: 72px;
+    background-color: #3B3B3B;
+    border: 1px solid #A259FF;
+    border-radius: 20px;
+    display: flex;
+}
+
+.mt_20 {
+    margin-top: 20px;
+}
+
+.img_wallet_3 {
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+.p_wallet_3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.input_subscribe_email {
+    height: 55px;
+    margin-top: 2.5px;
+    margin-left: 12px;
+    border: none;
+}
+
+.input_subscribe_email:focus {
+    outline: none;
+}
+
+.button_Subscribe {
+    width: 211px;
+    height: 60px;
+    background-color: #A259FF;
+    border-radius: 20px;
+    border: none;
+    margin-left: 215px;
+    position: absolute;
+}
+
+.p_button_Subscribe {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.div_subscribe_form_sm {
+    width: 315px;
+    height: 108px;
+}
+
+.input_subscribe_email_sm {
+    width: 315px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.input_subscribe_email_sm:focus {
+    outline: none;
+}
+
+.button_Subscribe_sm {
+    width: 315px;
+    height: 46px;
+    background-color: #A259FF;
+    border-radius: 20px;
+    border: none;
+    margin-top: 16px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .div_subscribe_form_sm {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .div_subscribe_form {
+        display: none !important;
+    }
+    .div_subscribe_form_sm {
+        margin-left: 0px !important;
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 360px;
+    background-color: #3B3B3B;
+    margin-top: 90px;
+}
+
+.div_NFT_Marketplace_Info {
+    height: 191px;
+}
+
+.h5_H {
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: SpaceMono;
+}
+
+.div_AddInfo_4 {
+    margin-top: 30px;
+}
+
+.p_S {
+    color: #CCCCCC;
+    font-size: 16px;
+}
+
+.div_Icons {
+    width: 158px;
+    height: 32px;
+    display: flex;
+}
+
+.a_ml_10 {
+    margin-left: 10px;
+}
+
+.div_AddInfo_4_2 {
+    height: 124px;
+    margin-top: 30px;
+}
+
+.div_subscribe_form {
+    width: 420px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.p_Copyright {
+    font-size: 12px;
+    color: #CCCCCC;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .footer {
+        margin-top: 250px;
+        height: 850px;
+    }
+    .div_AddInfo_4 {
+        width: 320px;
+    }
+    .div_239 {
+        width: 315px !important;
+    }
+    .c_ml {
+        margin-left: 20px !important;
+    }
+    .c_ml_2 {
+        margin-left: 80px;
+    }
+    .c_ml_3 {
+        margin-left: 185px !important;
+    }
+    .c_s {
+        width: 427.5px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .c_ml_3 {
+        margin-left: 22.5px !important;
+    }
+    .c_s {
+        width: 317px;
+    }
+}
+
